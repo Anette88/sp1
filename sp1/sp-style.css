@@ -1,0 +1,368 @@
+html {
+	max-width:1600px;
+	background:RGB(230,230,230);
+	margin:0 auto;
+}
+body {
+	width:80%;
+	background:white;
+	margin:0 auto;
+	border:1px solid black;
+}
+header {
+	width:100%;
+	margin:0 auto;
+	background:white;
+}
+
+.headerphoto {
+	width:100%
+}
+p {
+	font-family:amaranth, sans-serif;
+	font-size:15px;
+	color:RGB(102,102,102);
+}
+ul {
+	background-color:RGB(230,230,230);
+	padding:10px 0px 10px 0px;
+}
+li {
+	display:inline-block;
+	font-size:20px;
+	font-family:amaranth, Sans-Serif;
+	color:RGB(102,102,102);
+	padding:15px;
+	margin:10px;
+}
+nav li:hover {
+	color:blue;
+}
+nav li:active {
+	color:purple;
+}
+.active {
+	text-decoration:underlined;
+	color:purple;
+}
+h2 {
+	font-family:amaranth, sans-serif;
+	font-size:25px;
+	color:RGB(102,102,102);
+	padding:20px;
+}
+h3 {
+	font-family:amaranth, sans-serif;
+	font-size:20px;
+	color:RGB(102,102,102);	
+}
+div {
+	padding:20px;
+}
+a {
+	text-decoration:none;
+}
+footer {
+	clear:both;
+	background: RGB(237,213,230);
+	padding:20px;
+	text-align:center;
+}
+
+/* about page */
+#about {
+	width:80%;
+	margin:0 auto;
+	padding:20px;
+}
+#abouth2 {
+	padding:0px;
+}
+
+
+
+/*opening hours*/
+#openingdiv {
+	text-align:center;
+	padding:20px;
+}
+
+/* desktop styles */
+@media only screen and (min-width:1375px) {
+	h1 {
+	font-family:amaranth, sans-serif;
+	font-size:35px;
+	color:RGB(102,102,102);
+	padding:20px 20px 20px 350px;
+}
+/*index*/
+.col1 {
+	width:50%;
+	float:left;
+	margin-left:20px;
+}
+.col2 {
+	width:40%;
+	padding:30px;
+	float:right;
+	margin-right:30px;
+}
+.img1 {
+	width:180px;
+	padding:10px;
+}
+.img2 {
+	width:300px;
+}
+.p1 {
+	width:60%;
+	font-size:20px;
+	float:right;
+}
+.p2 {
+	font-size:20px;
+}
+.logo {
+	float:left;
+	height:100px;
+}
+/*For kids page*/
+#youngkid {
+float:right;
+padding:20px 20px 40px 40px;
+}
+.kidsp {
+	font-size:20px;
+}
+#forkids {
+	font-size:30px;
+}
+/* visit us page */
+.image-visit {
+	width:250px;
+	padding:0 0 0 20px;
+}	
+.p-visit {
+	width:500px;
+	float:left;
+	padding:10px;
+}
+#imgvisit {
+	width:100%;
+}
+/*Research*/
+#p1 {
+	font-size:20px;
+	padding:20px;
+}
+#imgresearch {
+	float:right;
+	width:50%;
+	padding:10px;
+}
+}
+
+@media only screen and (min-width:1001px) and (max-width:1374px) {
+	h1 {
+	font-family:amaranth, sans-serif;
+	font-size:35px;
+	color:RGB(102,102,102);
+	padding:20px 20px 20px 350px;
+}
+/*index*/
+.col1 {
+	width:55%;
+	padding:10px;
+	float:left;
+}
+.col2 {
+	padding:20px;
+	width:30%;
+	float:right;
+	margin-right:30px;
+}
+.img1 {
+	width:150px;
+}
+.img2 {
+	width:220px;
+}
+.p1 {
+	width:60%;
+	float:right;	
+}	
+.logo {
+	float:left;
+	height:100px;
+}
+/*For kids page*/
+#youngkid {
+float:right;
+padding:20px 20px 40px 40px;
+}
+.kidsp {
+	font-size:20px;
+}
+#forkids {
+	font-size:30px;
+}
+/* visit us page */
+.image-visit {
+	width:250px;
+	padding:0 0 0 20px;
+}	
+.p-visit {
+	width:100%;
+	float:left;
+	padding:10px;
+}
+#imgvisit {
+	width:100%;
+}
+/*Research*/
+#p1 {
+	font-size:20px;
+	padding:20px;
+}
+#imgresearch {
+	float:right;
+	width:50%;
+	padding:10px;
+}
+}
+
+
+
+/* tablet styles */
+@media only screen and (min-width:767px) and (max-width:1000px) {
+	h1 {
+	font-family:amaranth, sans-serif;
+	font-size:35px;
+	color:RGB(102,102,102);
+}
+/*index*/
+.col1 {
+	width:100%;
+
+}
+.col2 {
+	width:100%;
+}
+.img1 {
+	width:40%;
+}
+.img2 {
+	width:85%;
+}
+.p1 {
+	width:55%;
+	float:right;
+}
+.p2 {
+	width:85%;
+}
+.logo {
+	float:left;
+	height:50px;
+	padding:0px 10px 10px 10px;
+}
+/*For kids page*/
+.kidsp {
+	font-size:15px;
+}
+#forkids {
+	font-size:20px;
+}
+#youngkid {
+	width:250px;
+}
+/* visit us page */
+.image-visit {
+	width:250px;
+	padding:0 0 0 20px;
+}	
+.p-visit {
+	width:500px;
+	float:left;
+	padding:10px;
+}
+#imgvisit {
+	width:100%;
+}
+/*Research*/
+#p1 {
+	font-size:20px;
+	padding:20px;
+}
+#imgresearch {
+	float:right;
+	width:50%;
+	padding:10px;
+}
+}
+	
+/* mobile styles */
+@media only screen and (max-width:766px) {
+	h1 {
+	font-family:amaranth, sans-serif;
+	font-size:20px;
+	color:RGB(102,102,102);
+}
+/*index*/
+.col1 {
+	width:100%;
+	margin:0 auto;
+}
+.col2 {
+	width:100%;
+	margin:0 auto;
+}
+.img1 {
+	width:65%;
+	padding:10%;
+}
+.img2 {
+	width:100%;
+}
+.p1 {
+	width:100%;
+}
+.p2 {
+	width:100%;
+}
+.logo {
+	float:left;
+	height:50px;
+}
+/*For kids page*/
+.kidsp {
+	font-size:10px;
+}
+#forkids {
+	font-size:20px;
+}
+/* visit us page */
+.image-visit {
+	width:200px;
+	padding:0 0 0 20px;
+}	
+.p-visit {
+	width:100%;
+	padding:10px;
+}
+#youngkid {
+	width:75%;
+}
+#imgvisit {
+	width:100%;
+}
+/*Research*/
+#p1 {
+	font-size:20px;
+	padding:20px;
+}
+#imgresearch {
+	width:80%;
+	padding:10px;
+}
+}
